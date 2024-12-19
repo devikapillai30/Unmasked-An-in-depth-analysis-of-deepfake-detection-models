@@ -26,5 +26,7 @@ The AI-Face-FairnessBench dataset includes facial images annotated with demograp
 ## Preliminary Results
 Comparing our results obtained using the pretrained weights with the author’s results for the entire FaceForensics++ and WDF datasets, we observed that the results were promising, yielding an accuracy of 0.88 and an Area Under the Curve (AUC) of 0.94. While these metrics indicate strong performance, they are slightly lower than the benchmarks established by the original authors, who reported an AUC of 0.96 using the FF++. Considering the WildDeepFake dataset’s known difficulty due to its diverse and sophisticated deepfake content, our assumptions were validated when we observed a decrease in the model’s performance when it yielded an accuracy of 0.63 and an Area Under the Curve (AUC) of 0.73. These results indicate that the model faces significant challenges in handling the complexity and variability of this dataset.
 
-<img width="283" alt="Screenshot 2024-12-18 at 7 08 55 PM" src="https://github.com/user-attachments/assets/2e2b7801-070a-4bf4-9fc7-7d2417914938" />
+<p align="center">
+  <img width="350" alt="Screenshot 2024-12-18 at 7 08 55 PM" src="https://github.com/user-attachments/assets/2e2b7801-070a-4bf4-9fc7-7d2417914938" />
+</p>
 
