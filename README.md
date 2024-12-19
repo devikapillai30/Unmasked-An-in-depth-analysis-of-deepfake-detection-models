@@ -30,3 +30,13 @@ Comparing our results obtained using the pretrained weights with the author’s 
   <img width="350" alt="Screenshot 2024-12-18 at 7 08 55 PM" src="https://github.com/user-attachments/assets/2e2b7801-070a-4bf4-9fc7-7d2417914938" />
 </p>
 
+## Comprehensive Analysis
+### Hyperparameter tuning
+We experimented with batch sizes and learning rates, ultimately selecting a batch size of 32 and a learning rate of 0.0002 for optimal performance. This configuration led to a final model achieving better results.
+
+### Noise Addition
+Initially, we trained and tested the model using a dataset of images, which yielded reasonable results. To improve generalization, we added Gaussian noise with a mean of 0 and a standard deviation of 15 to the images during training, resulting in a maximum pixel value shift of ±15. This approach, implemented using libraries like TensorFlow and NumPy, enhanced the model’s performance by making it more robust to variations in the data, leading to better overall outcomes.
+
+## Visualizations
+## GradCAM
+
