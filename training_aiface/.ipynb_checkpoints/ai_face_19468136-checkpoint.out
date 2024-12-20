@@ -1,0 +1,16 @@
+Load pretrained model successfully!
+Load pretrained model successfully!
+<generator object Module.parameters at 0x7fa1a1696ce0> SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.0005
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.005
+)
+Epoch 0/4
+----------
+#0 batch_metric{'acc': 0.421875, 'acc_spe': 0.15625, 'auc': 0.3486328125, 'eer': 0.625, 'ap': 0.42432522764429453}

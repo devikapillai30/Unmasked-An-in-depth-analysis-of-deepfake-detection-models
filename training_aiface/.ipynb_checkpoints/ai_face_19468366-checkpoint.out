@@ -1,0 +1,22 @@
+Load pretrained model successfully!
+Load pretrained model successfully!
+<generator object Module.parameters at 0x7ff56b2a2ce0> SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.0005
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.005
+)
+Epoch 0/4
+----------
+#0 batch_metric{'acc': 0.421875, 'acc_spe': 0.15625, 'auc': 0.3486328125, 'eer': 0.625, 'ap': 0.42432522764429453}
+#200 batch_metric{'acc': 0.453125, 'acc_spe': 0.390625, 'auc': 0.57421875, 'eer': 0.40625, 'ap': 0.653038567784235}
+#400 batch_metric{'acc': 0.5625, 'acc_spe': 0.4375, 'auc': 0.595703125, 'eer': 0.40625, 'ap': 0.6390901388612471}
+#600 batch_metric{'acc': 0.484375, 'acc_spe': 0.484375, 'auc': 0.537109375, 'eer': 0.4375, 'ap': 0.6179502117847744}
+#800 batch_metric{'acc': 0.59375, 'acc_spe': 0.5, 'auc': 0.6533203125, 'eer': 0.40625, 'ap': 0.6561523056933867}
+#1000 batch_metric{'acc': 0.65625, 'acc_spe': 0.5, 'auc': 0.70849609375, 'eer': 0.375, 'ap': 0.7256863371032698}
+#1200 batch_metric{'acc': 0.6875, 'acc_spe': 0.5, 'auc': 0.70703125, 'eer': 0.5, 'ap': 0.7782927147595662}

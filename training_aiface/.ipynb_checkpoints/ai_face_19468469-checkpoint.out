@@ -1,0 +1,484 @@
+Load pretrained model successfully!
+Load pretrained model successfully!
+<generator object Module.parameters at 0x7f8fc8792ce0> SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.0005
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.005
+)
+Epoch 0/4
+----------
+#0 batch_metric{'acc': 0.421875, 'acc_spe': 0.15625, 'auc': 0.3486328125, 'eer': 0.625, 'ap': 0.42432522764429453}
+#200 batch_metric{'acc': 0.453125, 'acc_spe': 0.390625, 'auc': 0.564453125, 'eer': 0.4375, 'ap': 0.643066090422289}
+#400 batch_metric{'acc': 0.484375, 'acc_spe': 0.4375, 'auc': 0.5791015625, 'eer': 0.40625, 'ap': 0.6669511728143147}
+#600 batch_metric{'acc': 0.484375, 'acc_spe': 0.484375, 'auc': 0.5234375, 'eer': 0.4375, 'ap': 0.6296179414868878}
+#800 batch_metric{'acc': 0.53125, 'acc_spe': 0.5, 'auc': 0.578125, 'eer': 0.4375, 'ap': 0.5848961201571147}
+#1000 batch_metric{'acc': 0.546875, 'acc_spe': 0.5, 'auc': 0.60888671875, 'eer': 0.46875, 'ap': 0.6267822156578698}
+#1200 batch_metric{'acc': 0.71875, 'acc_spe': 0.5, 'auc': 0.7373046875, 'eer': 0.4375, 'ap': 0.7900575161441468}
+#1400 batch_metric{'acc': 0.6111111111111112, 'acc_spe': 0.5, 'auc': 0.747599451303155, 'eer': 0.3333333333333333, 'ap': 0.7070246944438989}
+Epoch: 0 Loss: 3.7446
+
+----------
+Testing:  male,asian
+----------
+
+Testing:  male,white
+----------
+
+Testing:  male,black
+----------
+
+Testing:  male,others
+----------
+
+Testing:  nonmale,asian
+----------
+
+Testing:  nonmale,white
+----------
+
+Testing:  nonmale,black
+----------
+
+Testing:  nonmale,others
+----------
+
+Testing:  young
+----------
+
+Testing:  middle
+----------
+
+Testing:  senior
+----------
+
+Testing:  ageothers
+----------
+
+../results/male,asianlabels.npy 
+../results/male,whitelabels.npy 
+../results/male,blacklabels.npy 
+../results/male,otherslabels.npy 
+../results/nonmale,asianlabels.npy 
+../results/nonmale,whitelabels.npy 
+../results/nonmale,blacklabels.npy 
+../results/nonmale,otherslabels.npy 
+../results/younglabels.npy 
+../results/middlelabels.npy 
+../results/seniorlabels.npy 
+../results/ageotherslabels.npy 
+ number of 20192 with group_1 : AUC: 0.69959 | ErrorRate:  0.35831 | fpr: 0.23331 | tpr:0.51669 | acc: 0.56121 | precision: 0.91565 | EER: 0.36402 | F_G: 0.46622
+ number of 20192 with group_2 : AUC: 0.69959 | ErrorRate:  0.35831 | fpr: 0.23331 | tpr:0.51669 | acc: 0.56121 | precision: 0.91565 | EER: 0.36402 | F_G: 0.46622
+ number of 20192 with group_3 : AUC: 0.69959 | ErrorRate:  0.35831 | fpr: 0.23331 | tpr:0.51669 | acc: 0.56121 | precision: 0.91565 | EER: 0.36402 | F_G: 0.46622
+ number of 8883 with male : AUC: 0.70224 | ErrorRate:  0.35378 | fpr: 0.23518 | tpr:0.52762 | acc: 0.56951 | precision: 0.91910 | EER: 0.35946 | F_G: 0.47597
+ number of 3101 with asian : AUC: 0.68794 | ErrorRate:  0.37772 | fpr: 0.25000 | tpr:0.49457 | acc: 0.54531 | precision: 0.90389 | EER: 0.37662 | F_G: 0.44599
+ number of 1003 with male,asian : AUC: 0.70551 | ErrorRate:  0.35842 | fpr: 0.29319 | tpr:0.57635 | acc: 0.60120 | precision: 0.91470 | EER: 0.35602 | F_G: 0.52243
+ number of 15300 with white : AUC: 0.70450 | ErrorRate:  0.35182 | fpr: 0.22710 | tpr:0.52347 | acc: 0.56725 | precision: 0.91758 | EER: 0.36076 | F_G: 0.47144
+ number of 6763 with male,white : AUC: 0.70911 | ErrorRate:  0.34452 | fpr: 0.21552 | tpr:0.52648 | acc: 0.57267 | precision: 0.91995 | EER: 0.35508 | F_G: 0.47080
+ number of 615 with black : AUC: 0.68633 | ErrorRate:  0.38314 | fpr: 0.35200 | tpr:0.58571 | acc: 0.59837 | precision: 0.90296 | EER: 0.37600 | F_G: 0.53821
+ number of 329 with male,black : AUC: 0.67036 | ErrorRate:  0.41247 | fpr: 0.47761 | tpr:0.65267 | acc: 0.62614 | precision: 0.89756 | EER: 0.43284 | F_G: 0.61702
+ number of 1176 with others : AUC: 0.69591 | ErrorRate:  0.36530 | fpr: 0.18343 | tpr:0.45283 | acc: 0.50510 | precision: 0.93265 | EER: 0.35503 | F_G: 0.41412
+ number of 788 with male,others : AUC: 0.68485 | ErrorRate:  0.38416 | fpr: 0.20000 | tpr:0.43169 | acc: 0.47843 | precision: 0.93750 | EER: 0.35000 | F_G: 0.40228
+ number of 11309 with nonmale : AUC: 0.69760 | ErrorRate:  0.36189 | fpr: 0.23187 | tpr:0.50808 | acc: 0.55469 | precision: 0.91251 | EER: 0.36556 | F_G: 0.45857
+ number of 2098 with nonmale,asian : AUC: 0.67986 | ErrorRate:  0.38786 | fpr: 0.23059 | tpr:0.45487 | acc: 0.51859 | precision: 0.89830 | EER: 0.37412 | F_G: 0.40944
+ number of 8537 with nonmale,white : AUC: 0.70066 | ErrorRate:  0.35776 | fpr: 0.23661 | tpr:0.52110 | acc: 0.56296 | precision: 0.91515 | EER: 0.36339 | F_G: 0.47195
+ number of 286 with nonmale,black : AUC: 0.70013 | ErrorRate:  0.34906 | fpr: 0.20690 | tpr:0.50877 | acc: 0.56643 | precision: 0.90775 | EER: 0.36207 | F_G: 0.44755
+ number of 388 with nonmale,others : AUC: 0.71439 | ErrorRate:  0.33049 | fpr: 0.15942 | tpr:0.49843 | acc: 0.55928 | precision: 0.92409 | EER: 0.37681 | F_G: 0.43814
+ number of 13614 with young : AUC: 0.69971 | ErrorRate:  0.35870 | fpr: 0.21503 | tpr:0.49764 | acc: 0.54819 | precision: 0.91836 | EER: 0.36326 | F_G: 0.44792
+ number of 2420 with middle : AUC: 0.70262 | ErrorRate:  0.35444 | fpr: 0.25373 | tpr:0.54485 | acc: 0.58388 | precision: 0.91099 | EER: 0.36034 | F_G: 0.48843
+ number of 787 with senior : AUC: 0.69039 | ErrorRate:  0.36924 | fpr: 0.26087 | tpr:0.52239 | acc: 0.57306 | precision: 0.87820 | EER: 0.38043 | F_G: 0.46125
+ number of 3371 with ageothers : AUC: 0.70152 | ErrorRate:  0.35738 | fpr: 0.28650 | tpr:0.57173 | acc: 0.59478 | precision: 0.92051 | EER: 0.35766 | F_G: 0.52536
+ F_S: 0.21474 
+ F_G_inter, F_EFPR_inter, F_EO_inter, F_A_inter: 0.15080 | 0.46162 | 0.84446 | 0.18277 
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_1: 0.00974 | 0.00331 | 0.02285 | 0.11224 | 0.00242
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_2: 0.07199 | 0.19146 | 0.35325 | 0.14336 | 0.01085
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_3: 0.05914 | 0.11944 | 0.22739 | 0.13694 | 0.01922
+ inter_FPR, g1_FPR, g2_FPR, g3_FPR: 31.819 | 0.331 | 16.857 | 7.147
+ inter_auc, g1_auc, g2_auc, g3_auc: 4.403 | 0.464 | 1.816 | 1.222
+ inter_ErrorRate, g1_ErrorRate, g2_ErrorRate, g3_ErrorRate: 8.198 | 0.811 | 3.132 | 1.480
+ inter_foae, g1_foae, g2_foae, g3_foae: 14.771 | 1.482 | 9.327 | 4.659
+ inter_F_DP,g1_F_DP,g2_F_DP,g3_F_DP:21.474 | 1.739 | 12.410 | 7.744
+ inter_F_meo,g1_F_meo,g2_F_meo, g3_F_meo:31.819 | 1.954 | 16.857 | 7.409
+Cleaned up .npy files in directory: ../results
+Epoch 1/4
+----------
+#0 batch_metric{'acc': 0.6875, 'acc_spe': 0.5, 'auc': 0.7119140625, 'eer': 0.34375, 'ap': 0.7630602798395546}
+#200 batch_metric{'acc': 0.625, 'acc_spe': 0.5, 'auc': 0.6640625, 'eer': 0.28125, 'ap': 0.6609357835319446}
+#400 batch_metric{'acc': 0.609375, 'acc_spe': 0.5, 'auc': 0.66943359375, 'eer': 0.375, 'ap': 0.6776851476037946}
+#600 batch_metric{'acc': 0.546875, 'acc_spe': 0.5, 'auc': 0.62890625, 'eer': 0.46875, 'ap': 0.6438724515414467}
+#800 batch_metric{'acc': 0.484375, 'acc_spe': 0.5, 'auc': 0.56005859375, 'eer': 0.53125, 'ap': 0.5813291185945046}
+#1000 batch_metric{'acc': 0.515625, 'acc_spe': 0.5, 'auc': 0.5908203125, 'eer': 0.5, 'ap': 0.6275480894665192}
+#1200 batch_metric{'acc': 0.546875, 'acc_spe': 0.5, 'auc': 0.6201171875, 'eer': 0.46875, 'ap': 0.6199605083928981}
+#1400 batch_metric{'acc': 0.7222222222222222, 'acc_spe': 0.5, 'auc': 0.7764060356652949, 'eer': 0.3333333333333333, 'ap': 0.8131790996020916}
+Epoch: 1 Loss: 3.4382
+
+----------
+Testing:  male,asian
+----------
+
+Testing:  male,white
+----------
+
+Testing:  male,black
+----------
+
+Testing:  male,others
+----------
+
+Testing:  nonmale,asian
+----------
+
+Testing:  nonmale,white
+----------
+
+Testing:  nonmale,black
+----------
+
+Testing:  nonmale,others
+----------
+
+Testing:  young
+----------
+
+Testing:  middle
+----------
+
+Testing:  senior
+----------
+
+Testing:  ageothers
+----------
+
+../results/male,asianlabels.npy 
+../results/male,whitelabels.npy 
+../results/male,blacklabels.npy 
+../results/male,otherslabels.npy 
+../results/nonmale,asianlabels.npy 
+../results/nonmale,whitelabels.npy 
+../results/nonmale,blacklabels.npy 
+../results/nonmale,otherslabels.npy 
+../results/younglabels.npy 
+../results/middlelabels.npy 
+../results/seniorlabels.npy 
+../results/ageotherslabels.npy 
+ number of 20192 with group_1 : AUC: 0.77488 | ErrorRate:  0.30880 | fpr: 0.17214 | tpr:0.55453 | acc: 0.60321 | precision: 0.94018 | EER: 0.30172 | F_G: 0.48643
+ number of 20192 with group_2 : AUC: 0.77488 | ErrorRate:  0.30880 | fpr: 0.17214 | tpr:0.55453 | acc: 0.60321 | precision: 0.94018 | EER: 0.30172 | F_G: 0.48643
+ number of 20192 with group_3 : AUC: 0.77488 | ErrorRate:  0.30880 | fpr: 0.17214 | tpr:0.55453 | acc: 0.60321 | precision: 0.94018 | EER: 0.30172 | F_G: 0.48643
+ number of 8883 with male : AUC: 0.76398 | ErrorRate:  0.31981 | fpr: 0.15041 | tpr:0.51080 | acc: 0.57064 | precision: 0.93855 | EER: 0.31294 | F_G: 0.44715
+ number of 3101 with asian : AUC: 0.76935 | ErrorRate:  0.31155 | fpr: 0.20942 | tpr:0.58632 | acc: 0.62689 | precision: 0.93154 | EER: 0.30682 | F_G: 0.51145
+ number of 1003 with male,asian : AUC: 0.76265 | ErrorRate:  0.30853 | fpr: 0.18848 | tpr:0.57143 | acc: 0.61715 | precision: 0.93384 | EER: 0.30890 | F_G: 0.49850
+ number of 15300 with white : AUC: 0.77570 | ErrorRate:  0.30698 | fpr: 0.16493 | tpr:0.55098 | acc: 0.60085 | precision: 0.94099 | EER: 0.30082 | F_G: 0.48320
+ number of 6763 with male,white : AUC: 0.76058 | ErrorRate:  0.32332 | fpr: 0.15277 | tpr:0.50612 | acc: 0.56720 | precision: 0.93662 | EER: 0.31627 | F_G: 0.44285
+ number of 615 with black : AUC: 0.74093 | ErrorRate:  0.37082 | fpr: 0.16000 | tpr:0.41837 | acc: 0.50407 | precision: 0.91841 | EER: 0.31200 | F_G: 0.36585
+ number of 329 with male,black : AUC: 0.72522 | ErrorRate:  0.36573 | fpr: 0.05970 | tpr:0.32824 | acc: 0.45289 | precision: 0.91637 | EER: 0.31343 | F_G: 0.27356
+ number of 1176 with others : AUC: 0.81276 | ErrorRate:  0.28644 | fpr: 0.15976 | tpr:0.58689 | acc: 0.62330 | precision: 0.96298 | EER: 0.27219 | F_G: 0.52551
+ number of 788 with male,others : AUC: 0.83102 | ErrorRate:  0.28174 | fpr: 0.11000 | tpr:0.54651 | acc: 0.59010 | precision: 0.97075 | EER: 0.25000 | F_G: 0.49112
+ number of 11309 with nonmale : AUC: 0.78593 | ErrorRate:  0.29998 | fpr: 0.18895 | tpr:0.58899 | acc: 0.62879 | precision: 0.94182 | EER: 0.28811 | F_G: 0.51729
+ number of 2098 with nonmale,asian : AUC: 0.77367 | ErrorRate:  0.31264 | fpr: 0.21882 | tpr:0.59354 | acc: 0.63155 | precision: 0.93084 | EER: 0.30353 | F_G: 0.51764
+ number of 8537 with nonmale,white : AUC: 0.78964 | ErrorRate:  0.29434 | fpr: 0.17492 | tpr:0.58624 | acc: 0.62750 | precision: 0.94435 | EER: 0.28271 | F_G: 0.51517
+ number of 286 with nonmale,black : AUC: 0.75480 | ErrorRate:  0.37697 | fpr: 0.27586 | tpr:0.52193 | acc: 0.56294 | precision: 0.91836 | EER: 0.29310 | F_G: 0.47203
+ number of 388 with nonmale,others : AUC: 0.81312 | ErrorRate:  0.27895 | fpr: 0.23188 | tpr:0.67398 | acc: 0.69072 | precision: 0.95607 | EER: 0.27536 | F_G: 0.59536
+ number of 13614 with young : AUC: 0.78226 | ErrorRate:  0.30359 | fpr: 0.17996 | tpr:0.57278 | acc: 0.61628 | precision: 0.94361 | EER: 0.29436 | F_G: 0.50367
+ number of 2420 with middle : AUC: 0.78437 | ErrorRate:  0.30081 | fpr: 0.13006 | tpr:0.52845 | acc: 0.59463 | precision: 0.93819 | EER: 0.29638 | F_G: 0.45124
+ number of 787 with senior : AUC: 0.75716 | ErrorRate:  0.33019 | fpr: 0.14130 | tpr:0.48093 | acc: 0.56925 | precision: 0.91075 | EER: 0.30435 | F_G: 0.40152
+ number of 3371 with ageothers : AUC: 0.74534 | ErrorRate:  0.33427 | fpr: 0.18431 | tpr:0.51576 | acc: 0.56452 | precision: 0.93622 | EER: 0.31934 | F_G: 0.46188
+ F_S: 0.32180 
+ F_G_inter, F_EFPR_inter, F_EO_inter, F_A_inter: 0.21287 | 0.42323 | 0.94561 | 0.26734 
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_1: 0.03928 | 0.03853 | 0.11672 | 0.18054 | 0.03203
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_2: 0.12058 | 0.06899 | 0.27286 | 0.22119 | 0.02199
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_3: 0.08491 | 0.09290 | 0.24960 | 0.20336 | 0.04162
+ inter_FPR, g1_FPR, g2_FPR, g3_FPR: 21.616 | 3.853 | 4.965 | 5.424
+ inter_auc, g1_auc, g2_auc, g3_auc: 10.580 | 2.196 | 7.183 | 3.904
+ inter_ErrorRate, g1_ErrorRate, g2_ErrorRate, g3_ErrorRate: 9.801 | 1.983 | 8.438 | 3.346
+ inter_foae, g1_foae, g2_foae, g3_foae: 23.783 | 5.815 | 12.283 | 5.176
+ inter_F_DP,g1_F_DP,g2_F_DP,g3_F_DP:32.180 | 7.014 | 15.966 | 10.215
+ inter_F_meo,g1_F_meo,g2_F_meo, g3_F_meo:34.574 | 7.819 | 16.852 | 9.185
+Cleaned up .npy files in directory: ../results
+Epoch 2/4
+----------
+#0 batch_metric{'acc': 0.765625, 'acc_spe': 0.5, 'auc': 0.85400390625, 'eer': 0.3125, 'ap': 0.8608644016817816}
+#200 batch_metric{'acc': 0.71875, 'acc_spe': 0.515625, 'auc': 0.826171875, 'eer': 0.375, 'ap': 0.8196578688455146}
+#400 batch_metric{'acc': 0.6875, 'acc_spe': 0.5, 'auc': 0.765625, 'eer': 0.5, 'ap': 0.7886267877099832}
+#600 batch_metric{'acc': 0.78125, 'acc_spe': 0.515625, 'auc': 0.86083984375, 'eer': 0.28125, 'ap': 0.8822594526154846}
+#800 batch_metric{'acc': 0.6875, 'acc_spe': 0.5, 'auc': 0.7587890625, 'eer': 0.34375, 'ap': 0.7769223823714229}
+#1000 batch_metric{'acc': 0.71875, 'acc_spe': 0.515625, 'auc': 0.7919921875, 'eer': 0.1875, 'ap': 0.8167243034511897}
+#1200 batch_metric{'acc': 0.765625, 'acc_spe': 0.5, 'auc': 0.82763671875, 'eer': 0.34375, 'ap': 0.8442974497729623}
+#1400 batch_metric{'acc': 0.7962962962962963, 'acc_spe': 0.5, 'auc': 0.8765432098765432, 'eer': 0.18518518518518517, 'ap': 0.8904751262029194}
+Epoch: 2 Loss: 3.0633
+
+----------
+Testing:  male,asian
+----------
+
+Testing:  male,white
+----------
+
+Testing:  male,black
+----------
+
+Testing:  male,others
+----------
+
+Testing:  nonmale,asian
+----------
+
+Testing:  nonmale,white
+----------
+
+Testing:  nonmale,black
+----------
+
+Testing:  nonmale,others
+----------
+
+Testing:  young
+----------
+
+Testing:  middle
+----------
+
+Testing:  senior
+----------
+
+Testing:  ageothers
+----------
+
+../results/male,asianlabels.npy 
+../results/male,whitelabels.npy 
+../results/male,blacklabels.npy 
+../results/male,otherslabels.npy 
+../results/nonmale,asianlabels.npy 
+../results/nonmale,whitelabels.npy 
+../results/nonmale,blacklabels.npy 
+../results/nonmale,otherslabels.npy 
+../results/younglabels.npy 
+../results/middlelabels.npy 
+../results/seniorlabels.npy 
+../results/ageotherslabels.npy 
+ number of 20192 with group_1 : AUC: 0.83477 | ErrorRate:  0.34941 | fpr: 0.03059 | tpr:0.33177 | acc: 0.44532 | precision: 0.95654 | EER: 0.24722 | F_G: 0.27813
+ number of 20192 with group_2 : AUC: 0.83477 | ErrorRate:  0.34941 | fpr: 0.03059 | tpr:0.33177 | acc: 0.44532 | precision: 0.95654 | EER: 0.24722 | F_G: 0.27813
+ number of 20192 with group_3 : AUC: 0.83477 | ErrorRate:  0.34941 | fpr: 0.03059 | tpr:0.33177 | acc: 0.44532 | precision: 0.95654 | EER: 0.24722 | F_G: 0.27813
+ number of 8883 with male : AUC: 0.83054 | ErrorRate:  0.34824 | fpr: 0.03187 | tpr:0.33538 | acc: 0.44715 | precision: 0.95595 | EER: 0.25494 | F_G: 0.28177
+ number of 3101 with asian : AUC: 0.82290 | ErrorRate:  0.36310 | fpr: 0.02922 | tpr:0.30302 | acc: 0.43567 | precision: 0.94727 | EER: 0.25325 | F_G: 0.24863
+ number of 1003 with male,asian : AUC: 0.81594 | ErrorRate:  0.36715 | fpr: 0.02618 | tpr:0.29187 | acc: 0.42173 | precision: 0.94632 | EER: 0.25654 | F_G: 0.24128
+ number of 15300 with white : AUC: 0.83564 | ErrorRate:  0.34823 | fpr: 0.03276 | tpr:0.33629 | acc: 0.44706 | precision: 0.95729 | EER: 0.24572 | F_G: 0.28301
+ number of 6763 with male,white : AUC: 0.83413 | ErrorRate:  0.34488 | fpr: 0.03468 | tpr:0.34492 | acc: 0.45601 | precision: 0.95641 | EER: 0.25103 | F_G: 0.28937
+ number of 615 with black : AUC: 0.81558 | ErrorRate:  0.34661 | fpr: 0.03200 | tpr:0.33878 | acc: 0.46667 | precision: 0.94482 | EER: 0.29600 | F_G: 0.27642
+ number of 329 with male,black : AUC: 0.78680 | ErrorRate:  0.33155 | fpr: 0.04478 | tpr:0.38168 | acc: 0.49848 | precision: 0.93909 | EER: 0.29851 | F_G: 0.31307
+ number of 1176 with others : AUC: 0.88583 | ErrorRate:  0.32870 | fpr: 0.00000 | tpr:0.34260 | acc: 0.43707 | precision: 0.97902 | EER: 0.20710 | F_G: 0.29337
+ number of 788 with male,others : AUC: 0.87942 | ErrorRate:  0.35392 | fpr: 0.00000 | tpr:0.29215 | acc: 0.38198 | precision: 0.98058 | EER: 0.22000 | F_G: 0.25508
+ number of 11309 with nonmale : AUC: 0.83968 | ErrorRate:  0.35034 | fpr: 0.02960 | tpr:0.32892 | acc: 0.44389 | precision: 0.95751 | EER: 0.24026 | F_G: 0.27527
+ number of 2098 with nonmale,asian : AUC: 0.82496 | ErrorRate:  0.36108 | fpr: 0.03059 | tpr:0.30843 | acc: 0.44233 | precision: 0.94747 | EER: 0.25412 | F_G: 0.25214
+ number of 8537 with nonmale,white : AUC: 0.83955 | ErrorRate:  0.35084 | fpr: 0.03119 | tpr:0.32951 | acc: 0.43997 | precision: 0.95871 | EER: 0.24000 | F_G: 0.27797
+ number of 286 with nonmale,black : AUC: 0.87746 | ErrorRate:  0.36388 | fpr: 0.01724 | tpr:0.28947 | acc: 0.43007 | precision: 0.96259 | EER: 0.17241 | F_G: 0.23427
+ number of 388 with nonmale,others : AUC: 0.89844 | ErrorRate:  0.27429 | fpr: 0.00000 | tpr:0.45141 | acc: 0.54897 | precision: 0.97676 | EER: 0.20290 | F_G: 0.37113
+ number of 13614 with young : AUC: 0.84432 | ErrorRate:  0.34988 | fpr: 0.02422 | tpr:0.32445 | acc: 0.43903 | precision: 0.95985 | EER: 0.23758 | F_G: 0.27163
+ number of 2420 with middle : AUC: 0.84283 | ErrorRate:  0.34353 | fpr: 0.01919 | tpr:0.33214 | acc: 0.45785 | precision: 0.95527 | EER: 0.23454 | F_G: 0.27149
+ number of 787 with senior : AUC: 0.81099 | ErrorRate:  0.39285 | fpr: 0.05435 | tpr:0.26866 | acc: 0.42694 | precision: 0.92692 | EER: 0.26630 | F_G: 0.21855
+ number of 3371 with ageothers : AUC: 0.80819 | ErrorRate:  0.34307 | fpr: 0.06022 | tpr:0.37407 | acc: 0.46603 | precision: 0.95422 | EER: 0.27737 | F_G: 0.32305
+ F_S: 0.13687 
+ F_G_inter, F_EFPR_inter, F_EO_inter, F_A_inter: 0.09300 | 0.09782 | 0.42793 | 0.11494 
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_1: 0.00364 | 0.00227 | 0.00874 | 0.07026 | 0.04129
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_2: 0.02950 | 0.03554 | 0.08666 | 0.08318 | 0.05659
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_3: 0.05958 | 0.07116 | 0.18426 | 0.09822 | 0.17879
+ inter_FPR, g1_FPR, g2_FPR, g3_FPR: 4.478 | 0.227 | 3.276 | 4.103
+ inter_auc, g1_auc, g2_auc, g3_auc: 11.164 | 0.914 | 7.025 | 3.613
+ inter_ErrorRate, g1_ErrorRate, g2_ErrorRate, g3_ErrorRate: 9.286 | 0.210 | 3.440 | 4.977
+ inter_foae, g1_foae, g2_foae, g3_foae: 16.699 | 0.325 | 3.100 | 3.910
+ inter_F_DP,g1_F_DP,g2_F_DP,g3_F_DP:13.687 | 0.651 | 4.474 | 10.450
+ inter_F_meo,g1_F_meo,g2_F_meo, g3_F_meo:16.194 | 0.647 | 3.958 | 10.541
+Cleaned up .npy files in directory: ../results
+Epoch 3/4
+----------
+#0 batch_metric{'acc': 0.8125, 'acc_spe': 0.546875, 'auc': 0.9150390625, 'eer': 0.25, 'ap': 0.8927967140095602}
+#200 batch_metric{'acc': 0.78125, 'acc_spe': 0.578125, 'auc': 0.8818359375, 'eer': 0.28125, 'ap': 0.8808296246070526}
+#400 batch_metric{'acc': 0.78125, 'acc_spe': 0.546875, 'auc': 0.94140625, 'eer': 0.15625, 'ap': 0.9227760318571561}
+#600 batch_metric{'acc': 0.78125, 'acc_spe': 0.5625, 'auc': 0.89794921875, 'eer': 0.25, 'ap': 0.8947488320330392}
+#800 batch_metric{'acc': 0.828125, 'acc_spe': 0.53125, 'auc': 0.9326171875, 'eer': 0.21875, 'ap': 0.9306444337656228}
+#1000 batch_metric{'acc': 0.875, 'acc_spe': 0.59375, 'auc': 0.9560546875, 'eer': 0.0625, 'ap': 0.9545041171565563}
+#1200 batch_metric{'acc': 0.828125, 'acc_spe': 0.5625, 'auc': 0.9404296875, 'eer': 0.21875, 'ap': 0.9416260822510822}
+#1400 batch_metric{'acc': 0.8518518518518519, 'acc_spe': 0.5925925925925926, 'auc': 0.9629629629629629, 'eer': 0.18518518518518517, 'ap': 0.949363974980673}
+Epoch: 3 Loss: 2.5031
+
+----------
+Testing:  male,asian
+----------
+
+Testing:  male,white
+----------
+
+Testing:  male,black
+----------
+
+Testing:  male,others
+----------
+
+Testing:  nonmale,asian
+----------
+
+Testing:  nonmale,white
+----------
+
+Testing:  nonmale,black
+----------
+
+Testing:  nonmale,others
+----------
+
+Testing:  young
+----------
+
+Testing:  middle
+----------
+
+Testing:  senior
+----------
+
+Testing:  ageothers
+----------
+
+../results/male,asianlabels.npy 
+../results/male,whitelabels.npy 
+../results/male,blacklabels.npy 
+../results/male,otherslabels.npy 
+../results/nonmale,asianlabels.npy 
+../results/nonmale,whitelabels.npy 
+../results/nonmale,blacklabels.npy 
+../results/nonmale,otherslabels.npy 
+../results/younglabels.npy 
+../results/middlelabels.npy 
+../results/seniorlabels.npy 
+../results/ageotherslabels.npy 
+ number of 20192 with group_1 : AUC: 0.89408 | ErrorRate:  0.26625 | fpr: 0.47803 | tpr:0.94553 | acc: 0.87010 | precision: 0.97319 | EER: 0.18326 | F_G: 0.86227
+ number of 20192 with group_2 : AUC: 0.89408 | ErrorRate:  0.26625 | fpr: 0.47803 | tpr:0.94553 | acc: 0.87010 | precision: 0.97319 | EER: 0.18326 | F_G: 0.86227
+ number of 20192 with group_3 : AUC: 0.89408 | ErrorRate:  0.26625 | fpr: 0.47803 | tpr:0.94553 | acc: 0.87010 | precision: 0.97319 | EER: 0.18326 | F_G: 0.86227
+ number of 8883 with male : AUC: 0.88422 | ErrorRate:  0.27148 | fpr: 0.48184 | tpr:0.93888 | acc: 0.86457 | precision: 0.97078 | EER: 0.19312 | F_G: 0.85816
+ number of 3101 with asian : AUC: 0.89031 | ErrorRate:  0.26597 | fpr: 0.46916 | tpr:0.93722 | acc: 0.85650 | precision: 0.96851 | EER: 0.18506 | F_G: 0.84424
+ number of 1003 with male,asian : AUC: 0.88101 | ErrorRate:  0.26300 | fpr: 0.46073 | tpr:0.93473 | acc: 0.85942 | precision: 0.96558 | EER: 0.18325 | F_G: 0.84447
+ number of 15300 with white : AUC: 0.89439 | ErrorRate:  0.26925 | fpr: 0.48585 | tpr:0.94736 | acc: 0.87131 | precision: 0.97372 | EER: 0.18466 | F_G: 0.86634
+ number of 6763 with male,white : AUC: 0.88587 | ErrorRate:  0.27777 | fpr: 0.49628 | tpr:0.94074 | acc: 0.86249 | precision: 0.97105 | EER: 0.19240 | F_G: 0.86116
+ number of 615 with black : AUC: 0.86467 | ErrorRate:  0.28278 | fpr: 0.48800 | tpr:0.92245 | acc: 0.83902 | precision: 0.95986 | EER: 0.20800 | F_G: 0.83415
+ number of 329 with male,black : AUC: 0.81192 | ErrorRate:  0.29797 | fpr: 0.47761 | tpr:0.88168 | acc: 0.80851 | precision: 0.94224 | EER: 0.23881 | F_G: 0.79939
+ number of 1176 with others : AUC: 0.91550 | ErrorRate:  0.21219 | fpr: 0.37870 | tpr:0.95432 | acc: 0.90646 | precision: 0.98331 | EER: 0.16568 | F_G: 0.87160
+ number of 788 with male,others : AUC: 0.91096 | ErrorRate:  0.19971 | fpr: 0.35000 | tpr:0.95058 | acc: 0.91244 | precision: 0.98437 | EER: 0.18000 | F_G: 0.87437
+ number of 11309 with nonmale : AUC: 0.90183 | ErrorRate:  0.26216 | fpr: 0.47509 | tpr:0.95076 | acc: 0.87444 | precision: 0.97503 | EER: 0.17662 | F_G: 0.86551
+ number of 2098 with nonmale,asian : AUC: 0.89614 | ErrorRate:  0.26725 | fpr: 0.47294 | tpr:0.93843 | acc: 0.85510 | precision: 0.96994 | EER: 0.18118 | F_G: 0.84414
+ number of 8537 with nonmale,white : AUC: 0.90100 | ErrorRate:  0.26236 | fpr: 0.47729 | tpr:0.95256 | acc: 0.87829 | precision: 0.97571 | EER: 0.17763 | F_G: 0.87045
+ number of 286 with nonmale,black : AUC: 0.92275 | ErrorRate:  0.26535 | fpr: 0.50000 | tpr:0.96930 | acc: 0.87413 | precision: 0.97753 | EER: 0.17241 | F_G: 0.87413
+ number of 388 with nonmale,others : AUC: 0.92838 | ErrorRate:  0.22895 | fpr: 0.42029 | tpr:0.96238 | acc: 0.89433 | precision: 0.98285 | EER: 0.14493 | F_G: 0.86598
+ number of 13614 with young : AUC: 0.90289 | ErrorRate:  0.25533 | fpr: 0.45762 | tpr:0.94696 | acc: 0.87579 | precision: 0.97589 | EER: 0.17244 | F_G: 0.86088
+ number of 2420 with middle : AUC: 0.88380 | ErrorRate:  0.26645 | fpr: 0.46269 | tpr:0.92978 | acc: 0.85372 | precision: 0.96808 | EER: 0.19829 | F_G: 0.83926
+ number of 787 with senior : AUC: 0.86198 | ErrorRate:  0.29542 | fpr: 0.55435 | tpr:0.96352 | acc: 0.84244 | precision: 0.94676 | EER: 0.23370 | F_G: 0.86785
+ number of 3371 with ageothers : AUC: 0.87096 | ErrorRate:  0.30394 | fpr: 0.55474 | tpr:0.94687 | acc: 0.86532 | precision: 0.96996 | EER: 0.20438 | F_G: 0.88312
+ F_S: 0.07497 
+ F_G_inter, F_EFPR_inter, F_EO_inter, F_A_inter: 0.06288 | 0.24954 | 0.38879 | 0.06893 
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_1: 0.00412 | 0.00675 | 0.01863 | 0.03954 | 0.03825
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_2: 0.02813 | 0.12600 | 0.16801 | 0.05155 | 0.04691
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_3: 0.02302 | 0.18879 | 0.22529 | 0.04899 | 0.07485
+ inter_FPR, g1_FPR, g2_FPR, g3_FPR: 15.000 | 0.675 | 10.930 | 9.712
+ inter_auc, g1_auc, g2_auc, g3_auc: 11.645 | 1.761 | 5.083 | 4.090
+ inter_ErrorRate, g1_ErrorRate, g2_ErrorRate, g3_ErrorRate: 9.826 | 0.931 | 7.059 | 4.861
+ inter_foae, g1_foae, g2_foae, g3_foae: 10.393 | 0.986 | 6.744 | 3.335
+ inter_F_DP,g1_F_DP,g2_F_DP,g3_F_DP:7.497 | 0.735 | 3.745 | 4.386
+ inter_F_meo,g1_F_meo,g2_F_meo, g3_F_meo:15.000 | 1.188 | 10.930 | 9.712
+Cleaned up .npy files in directory: ../results
+Epoch 4/4
+----------
+#0 batch_metric{'acc': 0.765625, 'acc_spe': 0.5625, 'auc': 0.85302734375, 'eer': 0.28125, 'ap': 0.868282157634254}
+#200 batch_metric{'acc': 0.828125, 'acc_spe': 0.625, 'auc': 0.9375, 'eer': 0.21875, 'ap': 0.9362953186562522}
+#400 batch_metric{'acc': 0.796875, 'acc_spe': 0.546875, 'auc': 0.9287109375, 'eer': 0.25, 'ap': 0.9197511977117241}
+#600 batch_metric{'acc': 0.8125, 'acc_spe': 0.59375, 'auc': 0.875, 'eer': 0.09375, 'ap': 0.8652167693139781}
+#800 batch_metric{'acc': 0.8125, 'acc_spe': 0.609375, 'auc': 0.8974609375, 'eer': 0.09375, 'ap': 0.8943370609921983}
+#1000 batch_metric{'acc': 0.796875, 'acc_spe': 0.578125, 'auc': 0.88623046875, 'eer': 0.09375, 'ap': 0.8841641956967004}
+#1200 batch_metric{'acc': 0.765625, 'acc_spe': 0.609375, 'auc': 0.94189453125, 'eer': 0.21875, 'ap': 0.9255208333333333}
+#1400 batch_metric{'acc': 0.8518518518518519, 'acc_spe': 0.5925925925925926, 'auc': 0.9506172839506173, 'eer': 0.2962962962962963, 'ap': 0.930532212885154}
+Epoch: 4 Loss: 2.0598
+
+----------
+Testing:  male,asian
+----------
+
+Testing:  male,white
+----------
+
+Testing:  male,black
+----------
+
+Testing:  male,others
+----------
+
+Testing:  nonmale,asian
+----------
+
+Testing:  nonmale,white
+----------
+
+Testing:  nonmale,black
+----------
+
+Testing:  nonmale,others
+----------
+
+Testing:  young
+----------
+
+Testing:  middle
+----------
+
+Testing:  senior
+----------
+
+Testing:  ageothers
+----------
+
+../results/male,asianlabels.npy 
+../results/male,whitelabels.npy 
+../results/male,blacklabels.npy 
+../results/male,otherslabels.npy 
+../results/nonmale,asianlabels.npy 
+../results/nonmale,whitelabels.npy 
+../results/nonmale,blacklabels.npy 
+../results/nonmale,otherslabels.npy 
+../results/younglabels.npy 
+../results/middlelabels.npy 
+../results/seniorlabels.npy 
+../results/ageotherslabels.npy 
+ number of 20192 with group_1 : AUC: 0.92914 | ErrorRate:  0.19008 | fpr: 0.32063 | tpr:0.94047 | acc: 0.89397 | precision: 0.98258 | EER: 0.14238 | F_G: 0.83008
+ number of 20192 with group_2 : AUC: 0.92914 | ErrorRate:  0.19008 | fpr: 0.32063 | tpr:0.94047 | acc: 0.89397 | precision: 0.98258 | EER: 0.14238 | F_G: 0.83008
+ number of 20192 with group_3 : AUC: 0.92914 | ErrorRate:  0.19008 | fpr: 0.32063 | tpr:0.94047 | acc: 0.89397 | precision: 0.98258 | EER: 0.14238 | F_G: 0.83008
+ number of 8883 with male : AUC: 0.92062 | ErrorRate:  0.20130 | fpr: 0.33779 | tpr:0.93519 | acc: 0.88698 | precision: 0.98030 | EER: 0.14978 | F_G: 0.82967
+ number of 3101 with asian : AUC: 0.91536 | ErrorRate:  0.19545 | fpr: 0.30519 | tpr:0.91429 | acc: 0.87069 | precision: 0.97778 | EER: 0.16234 | F_G: 0.79329
+ number of 1003 with male,asian : AUC: 0.91107 | ErrorRate:  0.20864 | fpr: 0.32984 | tpr:0.91256 | acc: 0.86640 | precision: 0.97825 | EER: 0.16754 | F_G: 0.80160
+ number of 15300 with white : AUC: 0.92998 | ErrorRate:  0.19040 | fpr: 0.32316 | tpr:0.94237 | acc: 0.89575 | precision: 0.98297 | EER: 0.14073 | F_G: 0.83366
+ number of 6763 with male,white : AUC: 0.91913 | ErrorRate:  0.20379 | fpr: 0.34021 | tpr:0.93264 | acc: 0.88378 | precision: 0.97978 | EER: 0.15194 | F_G: 0.82656
+ number of 615 with black : AUC: 0.91913 | ErrorRate:  0.22629 | fpr: 0.42400 | tpr:0.97143 | acc: 0.89106 | precision: 0.97605 | EER: 0.16800 | F_G: 0.86016
+ number of 329 with male,black : AUC: 0.88951 | ErrorRate:  0.25963 | fpr: 0.49254 | tpr:0.97328 | acc: 0.87842 | precision: 0.96918 | EER: 0.19403 | F_G: 0.87538
+ number of 1176 with others : AUC: 0.96010 | ErrorRate:  0.14706 | fpr: 0.26036 | tpr:0.96624 | acc: 0.93367 | precision: 0.99060 | EER: 0.08876 | F_G: 0.86480
+ number of 788 with male,others : AUC: 0.95863 | ErrorRate:  0.12599 | fpr: 0.22000 | tpr:0.96802 | acc: 0.94416 | precision: 0.98963 | EER: 0.07000 | F_G: 0.87310
+ number of 11309 with nonmale : AUC: 0.93549 | ErrorRate:  0.18136 | fpr: 0.30735 | tpr:0.94462 | acc: 0.89946 | precision: 0.98424 | EER: 0.13616 | F_G: 0.83040
+ number of 2098 with nonmale,asian : AUC: 0.91846 | ErrorRate:  0.18950 | fpr: 0.29412 | tpr:0.91512 | acc: 0.87274 | precision: 0.97804 | EER: 0.16235 | F_G: 0.78932
+ number of 8537 with nonmale,white : AUC: 0.93829 | ErrorRate:  0.17957 | fpr: 0.30915 | tpr:0.95001 | acc: 0.90524 | precision: 0.98528 | EER: 0.13220 | F_G: 0.83929
+ number of 286 with nonmale,black : AUC: 0.94484 | ErrorRate:  0.18776 | fpr: 0.34483 | tpr:0.96930 | acc: 0.90559 | precision: 0.98233 | EER: 0.12069 | F_G: 0.84266
+ number of 388 with nonmale,others : AUC: 0.96418 | ErrorRate:  0.17823 | fpr: 0.31884 | tpr:0.96238 | acc: 0.91237 | precision: 0.99232 | EER: 0.08696 | F_G: 0.84794
+ number of 13614 with young : AUC: 0.93863 | ErrorRate:  0.17069 | fpr: 0.28184 | tpr:0.94046 | acc: 0.90135 | precision: 0.98546 | EER: 0.12818 | F_G: 0.82459
+ number of 2420 with middle : AUC: 0.91379 | ErrorRate:  0.22069 | fpr: 0.37527 | tpr:0.93388 | acc: 0.87397 | precision: 0.97649 | EER: 0.15991 | F_G: 0.82562
+ number of 787 with senior : AUC: 0.89572 | ErrorRate:  0.22670 | fpr: 0.38043 | tpr:0.92703 | acc: 0.85515 | precision: 0.96360 | EER: 0.17935 | F_G: 0.79924
+ number of 3371 with ageothers : AUC: 0.90788 | ErrorRate:  0.23771 | fpr: 0.42336 | tpr:0.94793 | acc: 0.88757 | precision: 0.97825 | EER: 0.16423 | F_G: 0.86265
+ F_S: 0.08606 
+ F_G_inter, F_EFPR_inter, F_EO_inter, F_A_inter: 0.04530 | 0.36531 | 0.54706 | 0.06568 
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_1: 0.00041 | 0.03044 | 0.03988 | 0.04323 | 0.02159
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_2: 0.03679 | 0.18161 | 0.26642 | 0.06142 | 0.08893
+ F_G, F_EFPR, F_EO, F_A, F_COV of group_3: 0.03257 | 0.25595 | 0.28345 | 0.05931 | 0.12341
+ inter_FPR, g1_FPR, g2_FPR, g3_FPR: 27.254 | 3.044 | 16.364 | 14.152
+ inter_auc, g1_auc, g2_auc, g3_auc: 7.466 | 1.486 | 4.475 | 4.292
+ inter_ErrorRate, g1_ErrorRate, g2_ErrorRate, g3_ErrorRate: 13.364 | 1.994 | 7.923 | 6.703
+ inter_foae, g1_foae, g2_foae, g3_foae: 7.776 | 1.249 | 6.299 | 4.621
+ inter_F_DP,g1_F_DP,g2_F_DP,g3_F_DP:8.606 | 0.073 | 7.150 | 6.341
+ inter_F_meo,g1_F_meo,g2_F_meo, g3_F_meo:27.254 | 3.044 | 16.364 | 14.152
+Cleaned up .npy files in directory: ../results
+training finished!
