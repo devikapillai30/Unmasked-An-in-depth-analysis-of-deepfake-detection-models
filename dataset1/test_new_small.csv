@@ -1,0 +1,6 @@
+﻿Image Path,Uncertainty Score Gender,Uncertainty Score Age,Uncertainty Score Race,Ground Truth Gender,Ground Truth Age,Ground Truth Race,Intersection,Target,Fake classification
+/shared/rc/defake/FaceForensics++_All/FaceForensics++/real/youtube/val/857.mp4/0-131.jpeg,0.200629,0.210522,0.216722,1,1,1,1,0,0
+/shared/rc/defake/FaceForensics++_All/FaceForensics++/fake/DeepFakes/train/altered/407_374/181.jpg,0.213028,0.542163,0.471638,1,3,1,1,1,1
+/shared/rc/defake/FaceForensics++_All/FaceForensics++/fake/Face2Face/train/225_151.mp4/0-291.jpeg,0.207497,0.241399,0.20315,0,0,1,5,1,2
+/shared/rc/defake/FaceForensics++_All/FaceForensics++/fake/FaceSwap/train/275_887.mp4/0-221.jpeg,0.200338,0.200097,0.215249,0,0,1,5,1,3
+/shared/rc/defake/FaceForensics++_All/FaceForensics++/fake/NeuralTextures/train/357_432.mp4/1-181.jpeg,0.20002,0.206865,0.20004,1,2,1,1,1,4
